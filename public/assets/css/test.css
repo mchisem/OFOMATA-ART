@@ -21,11 +21,11 @@ body {
 /**********************************************/
 .navbar {
     position: relative !important;
-    background-color: black !important;
+    /* background-color: black !important; */
 }
 
 .navbar:not(.top-nav-collapse) {
-    background: black !important;
+    background: transparent !important;
 }
 
 .navbar-nav {
