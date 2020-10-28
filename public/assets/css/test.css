@@ -21,7 +21,6 @@ body {
 /**********************************************/
 .navbar {
     position: relative !important;
-    /* background-color: black !important; */
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -74,20 +73,6 @@ body {
 /*           scrolling clickable images       */
 /*********************************************************/
 /*********************************************************/
-@font-face {
-    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/PT_Sans-Web-Bold.ttf);
-    font-family: ptsans-bold;
-  }
-
-@font-face {
-    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/PFSquareSansPro-Regular.otf);
-    font-family: pfs-regular;
-}
-@font-face {
-    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/PFSquareSansPro-Medium.otf);
-    font-family: pfs-medium;
-}
-
 .scene {
     height: 100%;
 }
@@ -96,7 +81,6 @@ body {
 .scroll-down,
 .click-blocks,
 .pagination {
-    /* opacity: 0; */
     z-index: -100;
 }
 
@@ -114,9 +98,8 @@ body {
     transform: translateX(-50%) translateY(-50%);
     z-index: 100;
     font-size: 5vw;
-    font-family: ptsans-bold;
+    font-family: 'PT Sans', sans-serif;
     color: #ce2312;
-    /* opacity: 0.7; */
     transition: opacity 0.3s, transform 0.3s;
     will-change: opacity, transform;
 }
@@ -134,8 +117,8 @@ body {
     left: 50%;
     transform-origin: 0% 50%;
     transform: rotate(-90deg);
-    font-family: pfs-regular;
-    font-size: 1.3vmax;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19.5px;    
     transition: opacity 0.3s, transform 0.3s;
     will-change: opacity, transform;
     z-index: 100;
@@ -170,8 +153,8 @@ body {
     left: 50%;
     transform-origin: 0% 50%;
     transform: rotate(-90deg);
-    font-family: pfs-regular;
-    font-size: 1.3vmax;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19.5px;
     transition: opacity 0.3s, transform 0.3s, color 0.3s;
     will-change: opacity, transform;
     z-index: 100;
@@ -253,18 +236,22 @@ element.style {
 
 .page-names {
     text-align: center;
-    /* margin-bottom: 1vh; */
-    font-size: 1.2vw;
+    font-size: 12px;
+}
+
+.active {
+    display: block;
+    color: #020202;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 ul {
     display: block;
     list-style-type: disc;
-    /* margin-block-start: 1em; */
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    /* padding-inline-start: 40px; */
 }
 
 ul {
@@ -273,8 +260,6 @@ ul {
 
 li {
     display: none;
-    /* will-change: opacity;
-    font-family: ptsans-bold; */
 }
 
 .page-dots {
@@ -287,8 +272,7 @@ li {
     cursor: pointer;
     display: list-item;
     will-change: opacity;
-    font-family: ptsans-bold;
-    /* text-align: -webkit-match-parent; */
+    font-family: 'PT Sans', sans-serif;
     color: #cfcfcf;
 }
 
@@ -314,7 +298,6 @@ li {
     width: 100%;
     height: 100%;
     display: none;
-    /* background: rgba(0, 0, 0, 0.5); */
     padding: 2rem;
     overflow-x: hidden;
     overflow-y: auto;
@@ -325,23 +308,21 @@ li {
 .title {
     font-size: 4rem;
     text-transform: uppercase;
-    font-family: pfs-medium;
+    font-family: 'Source Sans Pro', sans-serif;
     transition: transform 0.5s 0.1s;
     transform: translateX(0);
-    /* transform: translateX(-115%); */
 }
 
 .content-text {
-    font-family: pfs-medium;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 2rem;
     transition: transform 0.5s 0.2s, opacity 0.3s 0.2s;
     transform-origin: 50% 80%;
     transform: scale(0.3);
-    /* opacity: 0; */
 }
 
 .content .content-text {
-    font-family: pfs-medium;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 2rem;
     -webkit-transition: opacity 0.3s 0.2s, -webkit-transform 0.5s 0.2s;
     transition: opacity 0.3s 0.2s, -webkit-transform 0.5s 0.2s;
@@ -351,7 +332,6 @@ li {
     transform-origin: 50% 80%;
     -webkit-transform: scale(0.3);
     transform: scale(1);
-    /* opacity: 0; */
     line-height: 1.25;
 }
 
@@ -363,12 +343,12 @@ p {
     margin-inline-end: 0px;
 }
 
-.check-out {
-position: absolute;
-z-index: 1;
-bottom: 1rem;
-right: 1rem;
-font-family: pfs-regular;
+.check-out {    
+    position: absolute;
+    z-index: 1;
+    bottom: 1rem;
+    right: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
 }
   
 /*********************************************************/
