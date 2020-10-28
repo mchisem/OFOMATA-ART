@@ -1,6 +1,6 @@
 # OFOMATA-ART
 
-An artist portfolio I made using express and mdboostrap frameworks.
+An artist portfolio I made using express and mdboostrap frameworks
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ An artist portfolio I made using express and mdboostrap frameworks.
 
 ## Deployed Project
 
-You can view the deployed website Deployed website [here](https://ofomata-art.herokuapp.com/)
+You can view the deployed website deployed website [here](https://ofomata-art.herokuapp.com/)
 
 ## Questions
 
