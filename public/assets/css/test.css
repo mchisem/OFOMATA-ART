@@ -29,10 +29,9 @@
 /*********************************************************/
 /*                   Heading            */
 /*********************************************************/
-.heading{transform: translateX(-50%) translateY(-50%) scale(0.5);
-}
+.heading{transform: translateX(-50%) translateY(-50%) scale(0.5);}
 
-.heading{position:absolute;top:50%;left:50%;transform:translateX(-50%) translateY(-50%);z-index:100;font-size:5vw;font-family:'PT Sans',sans-serif;color:#ce2312;transition:opacity 0.3s,transform .3s;will-change:opacity,transform}
+.heading{position:absolute;top:50%;left:50%;transform:translateX(-50%) translateY(-50%);z-index:100;font-size:5vw;font-family:'PT Sans',sans-serif;color:white;transition:opacity 0.3s,transform .3s;will-change:opacity,transform}
 
 /*********************************************************/
 /*                  Scroll Down                    */
