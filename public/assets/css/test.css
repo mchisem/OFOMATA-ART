@@ -33,6 +33,10 @@
 
 .heading{position:absolute;top:50%;left:50%;transform:translateX(-50%) translateY(-50%);z-index:100;font-size:5vw;font-family:'PT Sans',sans-serif;color:white;transition:opacity 0.3s,transform .3s;will-change:opacity,transform}
 
+#of{margin-left:45px;color:black;}
+
+@media(max-width:600px){.heading{font-size:10vw;}#of{margin-left:25px;}}
+
 /*********************************************************/
 /*                  Scroll Down                    */
 /*********************************************************/
