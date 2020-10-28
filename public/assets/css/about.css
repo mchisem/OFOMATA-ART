@@ -1,11 +1,6 @@
-.mb-5, .my-5 {
-    margin-top: 3rem!important;
-}
+.mb-5,.my-5 {margin-top: 3rem!important;}
 
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-}
+/******************************************/
+/* Footer */
+/******************************************/
+footer{position: absolute;bottom: 0;left: 0;width: 100%;text-align: center;}

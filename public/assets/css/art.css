@@ -1,48 +1,16 @@
 /********************************************************/
 /* Art Container */
 /********************************************************/
-/* .container.mt-5 {
-    max-width: 100% !important;
-    padding-left: 5%;
-    padding-right: 5%;
-} */
-
-.mt-5, .my-5 {
-    margin-top: 7rem!important;
-}
-
+.mt-5,.my-5{margin-top: 7rem!important;}
 
 /* img/content card */
-.card {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: none;
-    /* border: 1px solid rgba(0,0,0,.125); */
-    /* border-radius: .25rem; */
-}
+.card{position:relative;display:flex;-ms-flex-direction:column;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:none}
 
-p {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
+p{margin-top: 1rem;margin-bottom: 1rem;}
 
 /* img zoom effect */
-.view.zoom {
-    overflow: hidden;
-}
+.view.zoom{overflow: hidden;}
 
-.view.zoom img {
-    transition: transform .5s ease;
-}
+.view.zoom img{transition: transform .5s ease;}
 
-.view.zoom:hover img {
-    transform: scale(1.1);
-    cursor: pointer;
-}
+.view.zoom:hover img {transform: scale(1.1);cursor: pointer;}
