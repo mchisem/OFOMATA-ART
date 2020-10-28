@@ -1,3 +1,3 @@
 # OFOMATA-ART
 
-Deployed website [OFOMATA ART](https://mchisem.github.io/OFOMATA-ART/public/index.html)
+Deployed website [OFOMATA ART](https://ofomata-art.herokuapp.com/)
