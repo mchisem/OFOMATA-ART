@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mchisem/OFOMATA-ART#readme",
   "dependencies": {
+    "compression": "^1.7.4",
     "mdbootstrap": "^4.19.1"
   }
 }
