@@ -194,16 +194,16 @@ body {
 }
     
 .cont-1 {
-    background: url('https://cdn.glitch.com/9a0a3fc7-81f0-4644-bef7-4113d1ca24ed%2Forange-suit-goggle-guy.png?v=1603861565387') 50% 50% no-repeat fixed;
+    background: url('../images/orange-suit-goggle-guy.jpg') 50% 50% no-repeat fixed;
 }
 .cont-2 {
-    background: url('../images/hands-wide.png') 50% 50% no-repeat fixed;
+    background: url('../images/hands-wide.jpg') 50% 50% no-repeat fixed;
 }
 .cont-3 {
-    background: url('../images/eagle-drawing-wide.png') 50% 50% no-repeat fixed;
+    background: url('../images/eagle-drawing-wide.jpg') 50% 50% no-repeat fixed;
 }
 .cont-4 {
-    background: url('../images/yellow-mask-transform-wide.png') 50% 50% no-repeat fixed;
+    background: url('../images/yellow-mask-transform-wide.jpg') 50% 50% no-repeat fixed;
 }
     
 element.style {
