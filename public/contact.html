@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about</title>
+    <title>contact</title>
 
     <!-- MDB Bootstrap Stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <!-- My Style Sheet -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/about.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/contact.css">
 </head>
 <body>
     <!---------------------------------------->
@@ -59,38 +59,70 @@
     </nav>
     <!--/.Navbar-->
 
-    <!-- About -->
-    <div class="container-fluid mt-3 mb-5">
+    <!---------------------------------------->
+    <!--Contact-->
+    <!---------------------------------------->
+    <div class="container z-depth-1 my-5 px-0">
 
-        <!-- Section -->
-        <section class="bg-primary z-depth-1">
-          
+        <!--Section: Content-->
+        <section class="p-5 my-md-5 text-center">
       
-          <div class="row no-gutters">
+          <!-- Section heading -->
+          <h3 class="text-center font-weight-bold text-black mt-5 mb-3">Contact</h3>
+          <!-- Section description -->
+          <!-- <h4 class="text-center font-weight-normal text-white mx-auto mb-4 pb-2">We love to hear from you!</h4> -->
       
-            <div class="col-lg-6 order-md-2">
-              <div class="view">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Slides/img%20(152).jpg" alt="Video title">
-                <div class="mask flex-center rgba-black-light">
+          <form class="mb-5 mx-md-5" action="">
+      
+            <div class="row">
+              <div class="col-md-4 mb-4">
+      
+                <!-- Name -->
+                <input type="text" id="name" class="form-control" placeholder="Name">
+      
+              </div>
+              <div class="col-md-4 mb-4">
+      
+                <!-- Email -->
+                <input type="email" id="email" class="form-control" placeholder="Email">
+      
+              </div>
+              <div class="col-md-4 mb-4">
+      
+                <!-- Phone -->
+                <input type="text" id="phone" class="form-control" placeholder="Phone (optional)">
+      
+              </div>
+            </div>
+      
+            <div class="row">
+              <div class="col-md-12 mb-4">
+      
+                <!-- Subject -->
+                <input type="text" id="subject" class="form-control" placeholder="Subject">
+      
+              </div>
+            </div>
+      
+            <div class="row">
+              <div class="col-md-12">
+      
+                <div class="form-group mb-4">
+                  <textarea class="form-control rounded" id="message" rows="5" placeholder=""></textarea>
                 </div>
+      
+                <div class="text-center">
+                  <button type="submit" class="btn btn-elegant">Submit<i class="far fa-paper-plane ml-2"></i></button>
+                </div>
+      
               </div>
             </div>
       
-            <div class="col-lg-6 mx-auto d-flex align-items-center text-white">
-              <div class="px-4 py-4 py-lg-0">
-                <h3 class="font-weight-normal mb-4">Give a Fresh Design to Your MDB</h3>
-                <p class="mb-0">
-                  Fresh fellow even the whole is work outcome them. They original on mountains, drew the
-                  support time. The of to graduate. Into to is the to she at return understand every in there transmitting
-                  you've he the was and in finger.
-                </p>
-              </div>
-            </div>
+          </form>
       
-          </div>
-          
         </section>
-        <!-- Section -->
+        <!--Section: Content-->
+      
       
     </div>
 
@@ -99,14 +131,15 @@
     <!----------------------------------------> 
     <footer class="page-footer font-small unique-color-dark pt-4">
   
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-          <a href=""> Maya Chisem</a>
-        </div>
-        <!-- Copyright -->
-  
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href=""> Maya Chisem</a>
+      </div>
+      <!-- Copyright -->
+
     </footer>
-    
+
+
 <!-- Font Awesome Stylesheet-->
 <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
 <!-- JS, Popper.js, and jQuery -->
