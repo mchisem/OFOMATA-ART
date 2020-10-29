@@ -57,7 +57,7 @@
     
 .active{display:block;color: #020202;}
 
-.img-cont{height:80vh;width:35vw;position:absolute;top:10vh;left:50%;background-size:cover;transition:margin 1s cubic-bezier(0.99,0.1,0.35,1.2);will-change:margin;z-index:10}
+.img-cont{height:80vh;width:35vw;position:absolute;top:10%;left:50%;background-size:cover;transition:margin 1s cubic-bezier(0.99,0.1,0.35,1.2);will-change:margin;z-index:10}
 
 :not(.active){cursor:pointer;}
     
@@ -80,7 +80,7 @@ element.style{display: block;}
 /*********************************************************/
 /*                  Pagination                 */
 /*********************************************************/
-.pagination{position:absolute;left:50%;top:95%;display:block;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);-webkit-transition:opacity 0.3s,-webkit-transform .3s;transition:opacity 0.3s,transform 0.3s,-webkit-transform .3s;will-change:opacity,transform;z-index:100}
+.pagination{position:absolute;left:50%;top:93%;display:block;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);-webkit-transition:opacity 0.3s,-webkit-transform .3s;transition:opacity 0.3s,transform 0.3s,-webkit-transform .3s;will-change:opacity,transform;z-index:10}
 
 .page-names{text-align:center;font-size:12px;}
 
@@ -103,7 +103,7 @@ li{display:none}
 /*********************************************************/
 .content.visible{opacity:1}
 
-.content{position:absolute;top:0;left:0;width:100%;height:100%;display:none;padding:2rem;overflow-x:hidden;overflow-y:auto;color:#f9bdbb;z-index:99999}
+.content{position:absolute;top:1rem;left:0;width:100%;height:100%;display:none;padding:2rem;overflow:hidden;background:white;color:#f9bdbb;z-index:99999}
 
 .title{font-size:4rem;text-transform:uppercase;font-family:'Source Sans Pro',sans-serif;transition:transform .5s .1s;transform:translateX(0)}
 
@@ -122,7 +122,7 @@ p{display:block;margin-block-start:1em;margin-block-end:1em;margin-inline-start:
   
 .content .close {
     position: absolute;
-    top: -0.5rem;
+    top: 1rem;
     right: 1rem;
     font-family: metropolis, sans-serif;
     font-size: 4rem;
