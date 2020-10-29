@@ -47,7 +47,7 @@
 /*********************************************************/
 .click-blocks{transform:rotate(-90deg)scale(0.5);}
 
-.img-cont.active{margin-top:-10vh!important;width:50vw;height:100vh;transition:margin 0.3s,width 0.3s,height .3s;z-index:500}
+.img-cont.active{margin-top:-10vh!important;width:50vw;height:100%;transition:margin 0.3s,width 0.3s,height .3s;z-index:500}
 
 .left{margin-left:-50vw;}
 
